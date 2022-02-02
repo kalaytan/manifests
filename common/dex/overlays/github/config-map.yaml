@@ -25,7 +25,7 @@ data:
           # Credentials can be string literals or pulled from the environment.
           clientID: $(github_client_id)
           clientSecret: $(github_client_secret)
-          redirectURI: http://dex.auth.svc.cluster.local:5556/dex/callback
+          redirectURI: http://dex.auth.svc.cluster.pl:5556/dex/callback
           # Optional organizations and teams, communicated through the "groups" scope.
           #
           # NOTE: This is an EXPERIMENTAL config option and will likely change.
